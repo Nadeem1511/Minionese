@@ -1,0 +1,91 @@
+body{
+    font-family: 'Changa';
+    margin: 0;
+    background-color: #1E6A9F;
+}
+
+h1{
+    display: inline-block;
+    width: 300px;
+}
+
+.nav-bar{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: #f5e050;
+    color: #1E6A9F;
+    padding: 0.2rem;
+    margin: 0;
+    margin-bottom: 5rem;
+}
+
+.img-1{
+    display:inline-flex;
+    width: 125px;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    margin: 0;
+}
+
+.img-2{
+    display: inline-flex;
+    width: 125px;            
+    flex-direction: row-reverse;
+    align-items: flex-start; 
+    margin: 0px;
+}
+
+
+textarea{
+    display: block;
+    height: 10vh;
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    
+}
+
+.translate-btn{
+    text-align: center;
+    padding: 1rem;
+    padding-bottom: 5rem;
+}
+
+#btn{
+    border-radius: 0.8rem;
+    border: #f5e050;
+    padding: 8px;
+    color: #1E6A9F;
+    background-color: #f5e050;
+}
+
+.description{
+    font-size: larger;
+    text-align: center;
+    color: #f5e050;
+    margin-bottom: 2rem;
+}
+
+#output{
+    border: 1px solid #1E6A9F;
+    background-color: white;
+    height: 10vh;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5rem;
+    padding: 1rem;
+}
+
+.footer{
+    text-align: center;
+    background-color: #a87a51;
+    color: #f5e050;
+    padding: 1rem;
+    margin: 0;
+}
+
+.footer-about{
+    font-size: large;
+    padding: 1rem;
+}

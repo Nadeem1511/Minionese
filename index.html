@@ -5,30 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minionese</title>
-    <style>
-        textarea{
-            display: block;
-            height: 10vh;
-            width: 80%;
-            margin: 1rem;
-            padding: 1rem;
-        }
-
-        #output{
-            border: 1px solid black;
-            width: 80%;
-            height: 10vh;
-            margin: 1rem;
-            padding: 1rem;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;600;700;800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <h1>Banana Speak</h1>
-    <textarea placeholder="Enter your sentance to be translated" id="txt-area" cols="30" rows="10"></textarea>
-    <button id="btn">Translate</button>
-    <div style="font-size: larger;">Output will be displayed here 👇</div>
-    <div id="output"></div>
+    <nav class="nav-bar">
+        <h1>Minionese</h1>
+          <img class="img-1" src="Minion-nav.png" alt=""/>
+          <img class="img-2" src="Minion-nav2.png" alt=""/>
+    </nav>
+
+    <div class="container">
+        <div class="txt-area">
+             <textarea placeholder="Enter your sentance to be translated" id="txt-area" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="translate-btn">
+            <button id="btn">Translate</button>
+        </div>    
+
+        <div class="description">Output will be displayed here 👇</div>
+
+        <div id="output"></div>
+   </div>
+
+
+   <footer class="footer">
+    <div class="footer-about">
+        <p>Convert from English to Minion speak.
+            <br>
+            This language is spoken by the minions in Despicable Me.
+        </p>
+        <p>© 2022 Nadeem's Minion Translator</p>
+    </div>
+</footer>
+
     <script src="app.js"></script>
 </body>
 </html>
