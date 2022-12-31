@@ -5,12 +5,18 @@ body{
 }
 
 h1{
-    display: inline-block;
-    width: 300px;
+    display: inline;
+    width: 100%;
+    text-align: center;
+    margin: 0;
 }
 
+
 .nav-bar{
-    text-align: center;
+    display: flex;
+    flex-basis: 25%;
+    justify-content: space-around;
+    flex-wrap: wrap;
     font-size: 30px;
     font-weight: 800;
     background-color: #f5e050;
@@ -20,25 +26,18 @@ h1{
     margin-bottom: 5rem;
 }
 
-.img-1{
-    display:inline-flex;
-    width: 125px;
-    flex-direction: row-reverse;
-    align-items: flex-start;
-    margin: 0;
+img{
+    width: 100px;
 }
-
-.img-2{
-    display: inline-flex;
-    width: 125px;            
-    flex-direction: row-reverse;
-    align-items: flex-start; 
-    margin: 0px;
+.img{
+    margin: 0;
+    padding: 0;
 }
 
 
 textarea{
     display: block;
+    font-family: 'Changa', sans-serif;
     height: 10vh;
     width: 50%;
     margin: auto;
@@ -54,8 +53,9 @@ textarea{
 
 #btn{
     border-radius: 0.8rem;
+    font-size: 1rem;
     border: #f5e050;
-    padding: 8px;
+    padding: 5px 10px;
     color: #1E6A9F;
     background-color: #f5e050;
 }
